@@ -1,0 +1,174 @@
+body{
+    background-image: url("green93.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cells{
+    width:150px;
+    height: 150px;
+    border:2px solid;
+    box-shadow: 3px 3px 3px 2px inset rgb(80, 9, 9);
+    
+    text-align: center;
+    
+    cursor: pointer;
+}
+#cellcon{
+    display:grid;
+    grid-template-columns:repeat(3,auto) ;
+    width:150px;
+    margin-left: 600px;
+    margin-top:100px;
+    position: absolute;
+    
+}
+#whole{
+    text-align: center;
+    font-family: Bradley Hand ITC;
+    font-size: 120px;
+}
+
+#restG{
+    position: absolute;
+    margin-top: 190px;
+    font-size: 32px;
+    border-color: transparent;
+    
+    background-color: rgb(117, 69, 6);
+    box-shadow: 9px 10px rgb(158, 153, 153);
+    color:rgb(59, 152, 189);
+    font-family: "Chiller";
+    font-weight: bolder;
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: -510px;
+    
+}
+
+#restG:hover{
+    
+    background-color: rgb(34, 146, 150);
+    transition: cubic-bezier(1, 0, 0, 1);
+    color: rgb(5, 5, 4);
+}
+#restG:active{
+    box-shadow: 9px 10px rgb(31, 15, 15);
+    color: royalblue;
+    border-color: blueviolet;
+}
+#Gtext{
+margin-left: 20px;
+color: goldenrod;
+border: 4px solid transparent;
+text-shadow: 3px 3px grey;
+border-radius: 70px;
+font-family: "Baskerville Old Face";
+box-shadow:5px 5px 5px 5px rgba(31, 14, 14, 0.733);
+width: 530px;
+margin-top: 40px;
+background-color: rgba(15, 46, 139, 0.849);
+
+}
+
+#Gtext:hover{
+    background-color: goldenrod;
+    color: rgb(3, 100, 71);
+    box-shadow:5px 5px 5px 5px rgba(245, 245, 245, 0.733);
+}
+#winnerText{
+    width:460px;
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(15, 15, 14);
+    color:goldenrod;
+    border: 1px solid gray;
+    position: absolute;
+    display: none;
+    margin-left: 600px;
+    margin-top: 250px;
+    font-size: 70px;
+    
+}
+#score{
+   
+    border: 2px ridge black;
+    border-radius: 5px;
+    width:400px;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: -30px;
+    height: 100px;
+    background-color: rgba(245, 245, 245, 0.575);
+   
+   
+    
+}
+#scoreA{
+    font-family:  Rounded MT Bold;
+    font-size: 90px;
+    margin-left: 980px;
+    margin-top: -28px;
+    position: absolute;
+    
+   
+}
+#scoreB{
+    margin-top: -20px;
+    font-family:  Rounded MT Bold;
+    font-size: 90px;
+    margin-left: 1090px;
+    position: absolute;
+    margin-top: -28px;
+   
+}
+#x{
+    font-family:  Rounded MT Bold;
+    font-size: 80px;
+    margin-left: 880px;
+    margin-top: -20px;
+    position: absolute;
+    border-left: 8px solid rgba(15, 46, 139, 0.849);
+    color: rgba(15, 46, 139, 0.849);
+    padding-left: 10px;
+    height: 80px;
+    text-shadow: 2px 2px black;
+}
+#y{
+    margin-top: -20px;
+    font-family:  Rounded MT Bold;
+    font-size: 80px;
+    color :rgb(71, 48, 33);
+    margin-left: 1150px;
+    position: absolute;
+    border-right: 8px solid rgb(71, 48, 33);
+    padding-right: 10px;
+    height: 80px;
+    text-shadow: 2px 2px white;
+}
+#sep{
+    margin-top: -55px;
+    font-family:  Rounded MT Bold;
+    font-size: 110px;
+    margin-left: 1040px;
+    position: absolute;
+    color : rgb(247, 238, 238);
+    text-shadow: 3px 3px rgb(14, 13, 10);
+    padding: 5px;
+}
+
+#menu{
+    margin-left: 460px;
+    position: absolute;
+    background-color: black;
+    border-color: transparent;
+    margin-top: 520px;
+    color: white;
+    text-shadow: none;
+    font-size: 30px;
+    width: 100px;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
